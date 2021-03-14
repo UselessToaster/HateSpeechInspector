@@ -20,7 +20,7 @@ def analyze_text_sentiment(text):
         print(f"{k:10}: {v}")
     return(score,magnitude)
 
-text=str(input("Enter string to analyze: "))
+text=str(input("Enter notification text to analyze: "))
 b,c=analyze_text_sentiment(text)
 
 print(b)
